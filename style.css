@@ -524,6 +524,7 @@ progress {
     .text{
         font-size: 2.1rem;
         padding-top: 1rem;
+        padding-left: 3rem;
     }
     .text2{
         margin-left: 6rem;
@@ -671,13 +672,13 @@ progress {
     }
     
     #ip1{
-        width: 260px;
+        width: 300px;
         margin-top: 1rem;
         margin-left: none !important;
 
     }
     #subject{
-        width: 260px;
+        width: 300px;
         height: 150px;
         margin-top: 1rem;
         margin-left: 1rem;
