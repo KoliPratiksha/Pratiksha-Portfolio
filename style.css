@@ -20,11 +20,15 @@ body{
 
 .image{
     border-radius:10%;
+    margin-left: 3rem;
 }
 .image2{
-     border-bottom-right-radius: 2rem;
+     border-radius: 10%;
+     margin-left: 3rem;
 }
-
+.test{
+  padding-top: 5rem;
+}
 #wrap {
     text-align: center;
 }
@@ -126,6 +130,9 @@ body{
 .intro{
     padding-left: 2rem;
 }
+.head{
+  padding-bottom: 5rem;
+}
 .text2{
     font-family: 'PT Serif', serif;
     font-family: 'Roboto', sans-serif;
@@ -180,19 +187,19 @@ body{
 .about1{
     padding-top: 8rem;
 }
+.col6{
+  padding-left: 1rem;
+}
 .text4{
     color: green;
-    padding-left: 6rem;
+    
 }
 .text3{
-   padding-left: 6rem;
+  
    font-size: 2.6rem;
 }
 
-.head{
-    padding-left: 5rem;
-    padding-bottom: 5rem;
-}
+
 .head1{
     font-size: 4rem;
     color: #fffbfb;
@@ -205,7 +212,10 @@ body{
     margin-right: 15rem;
 }
 .but{
-    margin-left: 5rem;
+    margin-left:0rem;
+}
+.but1{
+  margin-left:2rem;
 }
 .fa1{
     color:  rgb(238, 174, 11);
@@ -251,7 +261,10 @@ body{
     padding-left: 5rem;
     padding-top: 5rem;
 }
-
+.Fskills1{
+  padding-left: 5rem;
+  padding-top: 5rem;
+}
 @property --progress-value {
     syntax: '<integer>';
     inherits: false;
@@ -393,28 +406,28 @@ progress {
     width: 0;
     height: 0;
   }
-
   .box a img{
-     border-radius: 2rem;
-     width: 18rem;
-     height: 30vh;
-     display: block;
-    
-  }
+    border-radius: 2rem;
+    height: 30vh;
+    width: 18rem;
+    margin-top: 1rem;
+    display: block;
+   
+ }
   .box {
     position: relative;
-    width: 80%;
+   
   }
   
   .overlay {
     position: absolute;
     bottom: 100%;
-    left: 0;
+    left: 3rem;
     right: 0;
     background-color: rgba(238, 174, 11, 0.795);
     border-radius: 2rem;
     overflow: hidden;
-    width: 100%;
+    width: 81%;
     height:0;
     transition: .5s ease;
   }
@@ -426,7 +439,7 @@ progress {
   
   .tests {
     color: rgb(253, 252, 248);
-    font-size: 20px;
+    font-size: 23px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -435,7 +448,7 @@ progress {
     transform: translate(-50%, -50%);
     text-align: center;
   }
-
+ 
   .box1 a img{
     border-radius: 2rem;
     height: 30vh;
@@ -481,14 +494,11 @@ progress {
     margin-left: 4rem;
   }
 
-  
-  
-  
-  .circle-icon {
+ .circle-icon {
     background: rgb(238, 174, 11);
     padding:10px;
     border-radius: 50%;
-}
+   }
 #ip1{
         border-radius: 25px;
         border: 2px solid rgb(129, 128, 128);
@@ -521,6 +531,9 @@ progress {
     #wrap{
         margin-left: -10rem !important;
     }
+    .test{
+      padding-top: 1rem;
+    }
     .text{
         font-size: 1.9rem;
         padding-top: 1rem;
@@ -532,7 +545,7 @@ progress {
         padding-top: 2rem;
     }
     .text1{
-        font-size: 17px;
+        font-size: 15px;
         padding-top: 1rem;
         
     }
@@ -546,17 +559,14 @@ progress {
         padding-bottom: 5rem;
     }
     .navbar-toggler{
-        background-color: #f0e7e763 !important;
-        margin-left: 1rem;
+        background-color: #5c5b5783 !important;
+        margin-left: 3rem;
     }
     .head{
         padding-left: 2rem;
         padding-bottom: 5rem;
     }
-    .image {
-        max-width: 70%;
-        height: auto;
-    }
+    
     .text3{
         font-size: 1.7rem;
         padding-left: 1rem;
@@ -569,11 +579,14 @@ progress {
         font-size: 2rem;
     }
     .about1{
-        padding-top: 2rem;
+        padding-top: 0.2rem;
     }
     .but{
         margin-left: 2rem !important;
     }   
+    .but1{
+      margin-left: 2rem !important;
+    } 
     .h6e{
         font-size: small;
         padding-left: 2rem;
@@ -587,18 +600,21 @@ progress {
         margin-top: 2rem;
     }
     
+  
     .btn-slide1{
         margin-left: 9rem;
     }
-    .image2 img{
-        height: 10vh;
+    .image{
+      margin-left: -0.7rem;
+    
+    }
+    .image2{
+        margin-left: 0.9rem;
     }
     .personal{
         padding-left: 4rem;
-        
         font-size: 2rem;
-       
-    }
+       }
    
     .personal2{
         padding-top: 2rem;
@@ -618,7 +634,7 @@ progress {
     .personals{
         padding-top: 1rem;
         font-size: 2rem;
-        padding-right: 3rem;
+        padding-right: -2rem;
     }
     .personal1{
         padding-left: 1rem;
@@ -631,8 +647,17 @@ progress {
     .borders{
         border-left: 1px solid  rgb(248, 205, 15);
         margin-left: 1rem;
-       
-    
+      }
+      .Fskills{
+        padding-left: 7rem;
+        padding-top: 5rem;
+      }
+      .Fskills1{
+        padding-left: 7rem;
+        padding-top: 1rem;
+      }
+    .fs{
+      padding-top: 1rem;
     }
     
     .fa1{
@@ -648,25 +673,36 @@ progress {
     }
     .school{
         font-size: 1rem;
-        
     }
-    
     .language{
         padding-top: 3rem;
     }
-    .box{
-        padding-top: 2rem;
-        margin-left: 2rem;
+    .box {
+     
+      width: 80%;
+      margin-left: 3rem;
+      margin-top: 2rem;
+       
     }
     
+    .overlay {
+      position: absolute;
+      bottom: 100%;
+      left: -0.7rem;
+      right: 0;
+      background-color: rgba(238, 174, 11, 0.795);
+      border-radius: 2rem;
+      overflow: hidden;
+      width: 100%;
+      height:0;
+      transition: .5s ease;
+    }
+   
     .box1 a img{
         border-radius: 2rem;
         height: 30vh;
         margin-top: 3rem;
-      
-        
-       
-     }
+    }
     .wraps{
         margin-left: 7rem !important;
     }
