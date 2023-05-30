@@ -146,7 +146,6 @@ body{
     font-weight: 100;
     font-size: 4rem;
     color: rgb(228, 166, 9);
-    /* text-shadow: 2px 2px 2px white; */
     white-space: nowrap;
     overflow: hidden;
     animation: typewriter 3s steps(13) infinite alternate,
@@ -724,22 +723,21 @@ progress {
     }
     
     #ip1{
-        width: 280px;
+        width: 300px;
         margin-top: 1rem;
         margin-left: none !important;
-        padding: 15px; 
 
     }
     
     #subject{
-        width: 280px;
+        width: 300px;
         height: 150px;
         margin-top: 1rem;
         margin-left: 1rem;
     }
     .sendbut{
         margin-bottom: 2rem;
-        margin-left: 1rem;
+        margin-left: 0.9rem;
     }
     
     
